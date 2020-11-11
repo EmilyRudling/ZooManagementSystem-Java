@@ -24,7 +24,8 @@ public class App {
                 new Zebra(LocalDate.of(2008, 12, 1))
         );
         List<SmallAnimal> smallAnimals = Collections.singletonList(
-                new Rabbit(LocalDate.of(2014, 1, 1))
+                new Rabbit(LocalDate.of(2014, 1, 1)),
+                new GuineaFowl(LocalDate.of(2016, 10, 9))
         );
         List<Animal> animals = new ArrayList<>();
         animals.addAll(largeAnimals);
